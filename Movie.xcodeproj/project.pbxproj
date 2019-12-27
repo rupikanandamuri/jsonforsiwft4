@@ -14,6 +14,9 @@
 		0B006CBE23B6647500B6222E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B006CBD23B6647500B6222E /* Assets.xcassets */; };
 		0B006CC123B6647500B6222E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B006CBF23B6647500B6222E /* LaunchScreen.storyboard */; };
 		0B006CCC23B6647500B6222E /* MovieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B006CCB23B6647500B6222E /* MovieTests.swift */; };
+		0B006CD723B66B7E00B6222E /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B006CD623B66B7E00B6222E /* Movie.swift */; };
+		0B006CD923B67DE500B6222E /* MovieManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B006CD823B67DE500B6222E /* MovieManager.swift */; };
+		0B006CDB23B683FA00B6222E /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B006CDA23B683FA00B6222E /* MovieCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		0B006CC723B6647500B6222E /* MovieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B006CCB23B6647500B6222E /* MovieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTests.swift; sourceTree = "<group>"; };
 		0B006CCD23B6647500B6222E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B006CD623B66B7E00B6222E /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		0B006CD823B67DE500B6222E /* MovieManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieManager.swift; sourceTree = "<group>"; };
+		0B006CDA23B683FA00B6222E /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +88,9 @@
 				0B006CB423B6647100B6222E /* AppDelegate.swift */,
 				0B006CB623B6647100B6222E /* SceneDelegate.swift */,
 				0B006CB823B6647100B6222E /* ViewController.swift */,
+				0B006CD623B66B7E00B6222E /* Movie.swift */,
+				0B006CD823B67DE500B6222E /* MovieManager.swift */,
+				0B006CDA23B683FA00B6222E /* MovieCell.swift */,
 				0B006CBA23B6647100B6222E /* Main.storyboard */,
 				0B006CBD23B6647500B6222E /* Assets.xcassets */,
 				0B006CBF23B6647500B6222E /* LaunchScreen.storyboard */,
@@ -202,6 +211,9 @@
 			files = (
 				0B006CB923B6647100B6222E /* ViewController.swift in Sources */,
 				0B006CB523B6647100B6222E /* AppDelegate.swift in Sources */,
+				0B006CDB23B683FA00B6222E /* MovieCell.swift in Sources */,
+				0B006CD923B67DE500B6222E /* MovieManager.swift in Sources */,
+				0B006CD723B66B7E00B6222E /* Movie.swift in Sources */,
 				0B006CB723B6647100B6222E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
